@@ -1,1 +1,11 @@
-# todo_app_frontend_redux
+# Todo App Frontend Setup
+
+## Packages
+
+- Vite Tool
+- Tailwind CSS
+- Redux
+  - redux
+  - react-redux
+  - redux-thunk
+- React Router Dom
