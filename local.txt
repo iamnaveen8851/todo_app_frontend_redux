@@ -1,0 +1,15 @@
+learn how to make and use gradient color in your todo app
+
+add theme color for light and dark mode 
+
+
+try to use the styling in their own css file 
+
+
+make folder structured as much as possible
+
+Create the following form 
+Signup form 
+
+Login form 
+

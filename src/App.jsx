@@ -1,7 +1,10 @@
+import Loading from "./components/Loading";
+import SignUp from "./components/SignUp";
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline text-blue-500 bg-red-300">
-      Welcome To Todo Frontend App
-    </h1>
+    <div className="bg-light p-[20px]">
+      <SignUp />
+    </div>
   );
 }

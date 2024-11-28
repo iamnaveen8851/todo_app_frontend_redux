@@ -1,0 +1,9 @@
+.formStyling {
+  @apply border-[5px] border-purple-500
+  grid 
+   mobile:my-[15vh] mobile:w-[95vw] mobile:h-[70vh] mobile:p-[25px] mobile:m-auto mobile:rounded-md
+
+   tablet:bg-red-100 tablet:border-red-300 tablet:w-[90vw] tablet:h-[50vh] tablet:p-[50px]
+
+   desktop:bg-lime-50 desktop:w-[70vw] desktop:h-[70vh];
+}
