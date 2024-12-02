@@ -1,10 +1,14 @@
-import Loading from "./components/Loading";
-import SignUp from "./components/SignUp";
+import Navbar from "./components/Navbar";
+import PublicRoute from "./components/PublicRoute";
 
 export default function App() {
   return (
-    <div className="bg-light p-[20px]">
-      <SignUp />
-    </div>
+    // <div className="bg-light ">
+
+    // </div>
+    <>
+      <Navbar />
+      <PublicRoute />
+    </>
   );
 }

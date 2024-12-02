@@ -1,0 +1,5 @@
+.navbar {
+  @apply mobile:border-[2px] mobile:border-solid mobile:border-primary
+  mobile:flex mobile:justify-between mobile:items-center mobile:p-4 mobile:w-[90vw] mobile:m-auto mobile:my-4 mobile:rounded-full;
+}
+

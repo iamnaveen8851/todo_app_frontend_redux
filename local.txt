@@ -13,3 +13,9 @@ Signup form
 
 Login form 
 
+theme icon added 
+   - toggle the icon of theme based on theme 
+
+
+
+add colors in tailwind config file

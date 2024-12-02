@@ -1,9 +1,20 @@
 .formStyling {
-  @apply border-[5px] border-purple-500
-  grid 
-   mobile:my-[15vh] mobile:w-[95vw] mobile:h-[70vh] mobile:p-[25px] mobile:m-auto mobile:rounded-md
+  @apply mobile:border-double
+  mobile:border-4 
+mobile:border-r-secondary
+  mobile:rounded-xl
+  mobile:grid mobile:grid-cols-1 mobile:justify-around mobile:items-center
+  mobile:w-[30vw] mobile:h-[50vh]
+  mobile:m-auto mobile:p-[20px];
+}
 
-   tablet:bg-red-100 tablet:border-red-300 tablet:w-[90vw] tablet:h-[50vh] tablet:p-[50px]
+.inputBox {
+  @apply border-solid border-[1px]
+  /* mobile:outline */
+   mobile:p-[8px] mobile:rounded-lg
+    /* outline-primary; */;
+}
 
-   desktop:bg-lime-50 desktop:w-[70vw] desktop:h-[70vh];
+.btnStyling {
+  @apply mobile:border mobile:bg-primary mobile:text-accent mobile:font-semibold mobile:w-[10vw] mobile:rounded-lg mobile:p-2;
 }
