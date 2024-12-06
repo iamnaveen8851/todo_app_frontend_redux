@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "../styles/signup.module.css";
 function SignUp() {
   return (
@@ -33,10 +32,7 @@ function SignUp() {
           />
 
           {/* submit */}
-          <button
-            className={styles.btnStyling}
-            type="submit"
-          >
+          <button className={styles.btnStyling} type="submit">
             Sign Up
           </button>
         </form>

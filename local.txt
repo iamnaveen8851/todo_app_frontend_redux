@@ -8,10 +8,17 @@ try to use the styling in their own css file
 
 make folder structured as much as possible
 
-Create the following form 
-Signup form 
 
-Login form 
+Create following Components for todo
+  -Todo 
+     - TodoInput 
+     - Todo Display think about it  how to display seperately.
+
+
+Functionality:
+   - Signup
+   - Login
+   - Todo
 
 theme icon added 
    - toggle the icon of theme based on theme 

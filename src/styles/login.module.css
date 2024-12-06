@@ -7,16 +7,15 @@ mobile:shadow-xl
   mobile:grid 
   mobile:grid-cols-1 
    mobile:items-center
-  mobile:w-[70vw] tablet:w-[55vw] desktop:w-[30vw]
-  mobile:h-[53vh] tablet:h-[52vh]   desktop:h-[55vh]
+  mobile:w-[70vw] tablet:w-[50vw] desktop:w-[30vw]
+  mobile:h-[40vh] tablet:h-[40vh]   desktop:h-[45vh]
 
   mobile:m-auto 
   mobile:p-[25px];
 }
 
 .inputBox {
-  @apply border-solid 
-   border-[1px]
+  @apply border-solid border-[1px]
   /* mobile:outline */
    mobile:p-[8px] mobile:rounded-lg
     /* outline-primary; */;
@@ -28,6 +27,5 @@ mobile:shadow-xl
   tablet:w-[20vw]
   desktop:w-[10vw]
   mobile:rounded-lg mobile:p-2
-  /* add hover  */
   hover:bg-darkBlue;
 }

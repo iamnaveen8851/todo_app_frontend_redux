@@ -13,7 +13,7 @@ export default {
     },
 
     screens: {
-      mobile: "300px",
+      mobile: "250px",
 
       tablet: "640px",
       // => @media (min-width: 640px) { ... }
@@ -31,6 +31,12 @@ export default {
       accent: "#FAF7FC", // Example accent color
       light: "#dce9f7", // Light theme color
       dark: "#657786", // Dark theme color
+      lightGreen: "#89f0c0",
+      darkGreen: "#21cc6b",
+      lightBlue: "#5cbcf7",
+      darkBlue: "#2988FF",
+      lightgrey: "#FFFFFF",
+      darkGray: "#FFFFFF",
     },
   },
   plugins: [],

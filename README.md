@@ -4,6 +4,7 @@
 
 - Vite Tool
 - Tailwind CSS
+- React Icons 
 - Redux
   - redux
   - react-redux
