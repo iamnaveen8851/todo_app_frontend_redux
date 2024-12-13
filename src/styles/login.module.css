@@ -8,7 +8,7 @@ mobile:shadow-xl
   mobile:grid-cols-1 
    mobile:items-center
   mobile:w-[70vw] tablet:w-[50vw] desktop:w-[30vw]
-  mobile:h-[40vh] tablet:h-[40vh]   desktop:h-[45vh]
+  mobile:h-[60vh] tablet:h-[75vh]   desktop:h-[45vh]
 
   mobile:m-auto 
   mobile:p-[25px];

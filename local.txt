@@ -3,8 +3,6 @@ learn how to make and use gradient color in your todo app
 add theme color for light and dark mode 
 
 
-try to use the styling in their own css file 
-
 
 make folder structured as much as possible
 
@@ -16,13 +14,27 @@ Create following Components for todo
 
 
 Functionality:
-   - Signup
-   - Login
-   - Todo
+   - Private Route -- done 
+   - use Loading Component for login and todos
+   - Navbar
+      show the name instead of login text once the user is logged in --- done
+      and show in dropdown with logout button --->
+     
+   - Signup -- it should add cookies and redirect to todo because user is logged in
+   - Login --- done 
+   - Todo ----> display all todos here
+
 
 theme icon added 
    - toggle the icon of theme based on theme 
 
 
 
+
+
+
+
 add colors in tailwind config file
+
+
+
