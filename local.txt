@@ -19,6 +19,11 @@ Functionality:
    - Navbar
       show the name instead of login text once the user is logged in --- done
       and show in dropdown with logout button --->
+         - Functionality done check[x]
+
+         - Adjust css on hover and mouse leave it should stop display dropdown
+         - also fix status indicator
+
      
    - Signup -- it should add cookies and redirect to todo because user is logged in
    - Login --- done 

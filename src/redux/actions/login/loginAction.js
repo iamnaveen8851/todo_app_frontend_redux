@@ -10,7 +10,10 @@ const getLoginData = (data) => {
 export const handleLogin = (formState, navigate) => {
   return async (dispatch) => {
     try {
-      const res = await axiosInstance.post("/user/login", formState);
+      const res = await axiosInstance.post(
+        import.meta.env.VITE_LOGIN,
+        formState
+      );
       const {
         data: { user },
         status,
