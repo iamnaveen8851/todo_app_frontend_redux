@@ -22,7 +22,7 @@ export const handleLogin = (formState, navigate) => {
 
       if (status === 200) {
         dispatch(getLoginData(user));
-        navigate("/todo");
+        navigate("/");
       }
     } catch (error) {
       console.log(error.message);

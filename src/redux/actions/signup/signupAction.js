@@ -19,7 +19,7 @@ export const handleSignupData = (formState, navigate) => {
 
       if (status === 201) {
         dispatch(getSignupData(data));
-        navigate("/todo");
+        navigate("/");
       }
     } catch (error) {
       console.log(error.message);

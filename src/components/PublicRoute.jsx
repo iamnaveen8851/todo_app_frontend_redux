@@ -9,7 +9,7 @@ function PublicRoute() {
     <>
       <Routes>
         <Route
-          path="/todo"
+          path="/"
           element={
             <PrivateRoute>
               <Todo />

@@ -25,9 +25,10 @@ Functionality:
          - also fix status indicator
 
      
-   - Signup -- it should add cookies and redirect to todo because user is logged in
+   - Signup -- it should add cookies and redirect to todo because user is logged in ----> done 
    - Login --- done 
    - Todo ----> display all todos here
+   
 
 
 theme icon added 

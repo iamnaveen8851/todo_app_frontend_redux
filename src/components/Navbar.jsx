@@ -13,7 +13,6 @@ function Navbar() {
   const navigate = useNavigate();
 
   const handleLogoutAction = () => {
-    console.log("Clicked......!!!!!!!!!");
     dispatch(handleLogout(navigate)); // Dispatch logout action
     // setIsDropdownOpen(false); // Close dropdown after logout
   };
