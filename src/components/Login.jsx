@@ -5,6 +5,11 @@ import { handleLogin } from "../redux/actions/login/loginAction";
 import { Link, useNavigate } from "react-router";
 
 function Login() {
+  const BASE_URL =
+    import.meta.env.NODE_ENV === "production"
+      ? import.meta.env.VITE_PRO_URL
+      : import.meta.env.VITE_DEV_URL;
+  console.log("URL", BASE_URL);
   const [formState, setFormState] = useState({
     email: "",
     password: "",
@@ -49,7 +54,7 @@ function Login() {
           />
 
           <p>
-            If you don't have account? {" "}
+            If you don't have account?{" "}
             <Link className="text-lightBlue hover:text-darkBlue" to="/signup">
               Sign up
             </Link>
