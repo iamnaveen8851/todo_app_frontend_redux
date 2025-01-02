@@ -9,7 +9,7 @@ function Login() {
     import.meta.env.VITE_NODE_ENV === "production"
       ? import.meta.env.VITE_PRO_URL
       : ""
-  console.log("URL", BASE_URL);
+  // console.log("URL", BASE_URL);
   const [formState, setFormState] = useState({
     email: "",
     password: "",
