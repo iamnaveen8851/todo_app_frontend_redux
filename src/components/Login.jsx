@@ -6,7 +6,7 @@ import { Link, useNavigate } from "react-router";
 
 function Login() {
   const BASE_URL =
-    import.meta.env.NODE_ENV === "production"
+    import.meta.env.VITE_NODE_ENV === "production"
       ? import.meta.env.VITE_PRO_URL
       : import.meta.env.VITE_DEV_URL;
   console.log("URL", BASE_URL);
