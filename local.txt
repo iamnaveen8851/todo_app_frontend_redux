@@ -4,10 +4,9 @@ add theme color for light and dark mode
 
 
 
-make folder structured as much as possible
+make folder structured as much as possible ----?  done
 
-
-Create following Components for todo
+Create following Components for todo ---> done
   -Todo 
      - TodoInput 
      - Todo Display think about it  how to display seperately.
@@ -27,7 +26,7 @@ Functionality:
      
    - Signup -- it should add cookies and redirect to todo because user is logged in ----> done 
    - Login --- done 
-   - Todo ----> display all todos here
+   - Todo ----> display all todos here ----> done
    
 
 
@@ -44,3 +43,16 @@ add colors in tailwind config file
 
 
 
+
+
+Implement
+  - handleDelete - done
+  - handleEdit  - done
+  - Toggle Status - done
+
+utils
+  - todoUtils
+     - handleDelete, - done
+     - handleGetTodo  - done
+     - handleAddTodo, - done
+     - handleUpdateTodo - done

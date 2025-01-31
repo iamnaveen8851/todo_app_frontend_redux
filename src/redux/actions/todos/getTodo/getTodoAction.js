@@ -12,10 +12,10 @@ export const handleGetTodo = () => {
   return async (dispatch) => {
     try {
       const res = await axiosInstance.get(import.meta.env.VITE_READ_TODO);
-      console.log("res---?", res);
-      const { data, message } = res.data;
+      // console.log("res---?", res);
+      const { data, message, username } = res.data;
       // console.log("Res---->", data, message);
-      dispatch(getTodoData({ data, message }));
+      dispatch(getTodoData({ data, message, username }));
     } catch (error) {
       console.log(error.message);
     }

@@ -18,7 +18,7 @@ export const handleLogin = (formState, navigate) => {
         data: { user },
         status,
       } = res;
-      console.log("Login Res----> ", user, status);
+      // console.log("Login Res----> ", user, status);
 
       if (status === 200) {
         dispatch(getLoginData(user));
